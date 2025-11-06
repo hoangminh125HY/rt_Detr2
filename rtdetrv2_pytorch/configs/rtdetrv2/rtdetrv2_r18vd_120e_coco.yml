@@ -7,7 +7,7 @@ __include__: [
 ]
 
 
-output_dir: kaggle/working/result
+output_dir: kaggle/working/kq
 
 
 PResNet:
@@ -24,7 +24,7 @@ HybridEncoder:
 
 
 RTDETRTransformerv2:
-  num_layers: 1
+  num_layers: 3
 
 
 epoches: 50
