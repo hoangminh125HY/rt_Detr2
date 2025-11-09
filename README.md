@@ -137,3 +137,4 @@ If you use `RT-DETR` or `RTDETRv2` in your work, please use the following BibTeX
 }
 ```
 # rtv2
+# rt_Detr2
