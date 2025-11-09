@@ -19,7 +19,7 @@ train_dataloader:
   dataset: 
     type: CocoDetection
     img_folder: /kaggle/input/uavdts2/UAV.v3i.coco/train/img
-    ann_file: /kaggle/working/train_fixed.json
+    ann_file: /kaggle/working/annotations_fixed_train.json
     return_masks: False
     transforms:
       type: Compose
@@ -36,7 +36,7 @@ val_dataloader:
   dataset: 
     type: CocoDetection
     img_folder: /kaggle/input/uavdts2/UAV.v3i.coco/valid/img
-    ann_file: /kaggle/working/val_fixed.json
+    ann_file: /kaggle/working/annotations_fixed_valid.json
     return_masks: False
     transforms:
       type: Compose
