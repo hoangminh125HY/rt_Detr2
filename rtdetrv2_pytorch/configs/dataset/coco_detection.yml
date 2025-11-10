@@ -10,7 +10,7 @@ evaluator:
 # num_classes: 91
 # remap_mscoco_category: False
 
-num_classes: 3
+num_classes: 2
 remap_mscoco_category: True
 
 
@@ -18,8 +18,8 @@ train_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: /kaggle/input/uavdts2/UAV.v3i.coco/train/img
-    ann_file: /kaggle/working/annotations_fixed_train.json
+    img_folder: /kaggle/input/ratdts2/MD.v1i.coco/train/img
+    ann_file: /kaggle/input/ratdts2/MD.v1i.coco/train/_annotations.coco.json
     return_masks: False
     transforms:
       type: Compose
