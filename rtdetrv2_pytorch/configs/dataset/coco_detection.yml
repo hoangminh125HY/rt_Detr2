@@ -35,8 +35,8 @@ val_dataloader:
   type: DataLoader
   dataset: 
     type: CocoDetection
-    img_folder: /kaggle/input/uavdts2/UAV.v3i.coco/test/img
-    ann_file: /kaggle/working/annotations_fixed_test.json
+    img_folder: /kaggle/input/ratdts2/MD.v1i.coco/test/img
+    ann_file: /kaggle/input/ratdts2/MD.v1i.coco/test/_annotations.coco.json
     return_masks: False
     transforms:
       type: Compose
