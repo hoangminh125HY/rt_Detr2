@@ -16,7 +16,7 @@ RTDETRTransformerv2:
   cross_attn_method: discrete
 
 
-epoches: 12
+epoches: 50
 
 train_dataloader: 
   dataset: 
